@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+      <title>Thank You</title>
+</head>
+<body>
+       <hr>
+       <marquee direction="alternate"> Your Form Is Submited </marquee>
+       <hr>
+       <marquee direction="alternate"> THANK YOU </marquee>
+       <hr>
+</body>
+</html>

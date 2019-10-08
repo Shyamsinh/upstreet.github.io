@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+    <style> a:link {
+	                color: black;
+					font-size:20px;
+				   } 
+	        a:visited {
+			           color: magenta
+					  }
+            a:hover {
+			         color:green
+			        }
+        					
+	</style> 
+		  <script type="text/javascript">
+var intervalID;
+
+function changeColor()
+{
+  intervalID = setInterval(flashText, 500);
+}
+
+function flashText()
+{
+  var elem = document.getElementById("my_box");
+  if (elem.style.color == 'lime')
+  {
+    elem.style.color = 'red';
+  }
+  else
+  {
+    elem.style.color = 'lime';
+  }
+}
+
+function stopTextColor()
+{
+  clearInterval(intervalID);
+}
+      </script>
+</head>
+<body bgcolor="blue" onload="changeColor();">
+   <table boder>
+     <tr>
+        <td colspan="6" width="70%" >
+		<div id="my_box">
+		<font style="font-family:Ravie" size="50px">U.P. street food </td>
+		</div>
+     </tr>
+	 <tr>
+ 
+          <td style="width:100px; border-bottom-width: 3px"> 
+		  <a href="home page.html" target="b" width="300px"><img src="home page.jpg"></a> </td>
+
+		  <td style="width:100px; border-bottom-width: 3px"> 
+		  <a href="Menu.html" target="b" width="300px"> <img src="Menu.jpg"></a> </td>
+		  
+		  
+		  <td style="width:100px; border-bottom-width: 3px"> 
+		  <a href="div.html" target="b" width="300px"> <img src="method.jpg"></a> </td>
+
+
+		  <td style="width:100px; border-bottom-width: 3px"> 
+		  <a href="About us.html" width="300px" target="b"> <img src="About us.jpg"></a> </td>
+		  
+		  <td style="width:100px; border-bottom-width: 3px"> 
+		  <a href="Contect Us.html" target="b" width="300px"> <img src="contect Us.jpg"> </a> </td>
+		  
+		  <td style="width:100px; border-bottom-width: 3px"> 
+		  <a href="F.A.Q.html" target="b" width="300px"> <img src="F.A.Q.jpg"></a> </td>
+		  
+		  <td style="width:100px; border-bottom-width: 3px"> 
+		  <a href="from.html" target="b" width="300px"> <img src="Feed back.jpg"></a> </td>
+	 
+	 </tr>
+	 </table>
+	 <font style="font-family:Ravie" size="5px" color="brawn">
+	 <script type="text/javaScript" language="javascript"> 
+var name= prompt( "Please enter your name: " );
+if (name=="visitor" || name=="") 
+{
+name = " visitor "; 
+document.write ("Hi " + name + ", Welcome to U.P STREET FOOD");
+}
+else
+document.write ("Hi " + name + ", Welcome to U.P STREET FOOD");
+</script>
+
+</body>
+</html>
